@@ -1,4 +1,4 @@
-# COMPUTER-VISION-
+# COMPUTER-VISION
 Covered basiscs of Computer Vision
 
 A repository covering the basics of computer vision, including image processing, feature detection, and object recognition using popular libraries such as OpenCV and TensorFlow.
