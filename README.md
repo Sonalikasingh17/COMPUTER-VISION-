@@ -3,7 +3,7 @@ Covered basiscs of Computer Vision
 
 A repository covering the basics of computer vision, including image processing, feature detection, and object recognition using popular libraries such as OpenCV and TensorFlow.
 
-## Overview
+## Overview 
 This repository provides a comprehensive introduction to computer vision concepts and techniques. It includes tutorials, code examples, and practical applications to help you get started with computer vision projects.
 
 ## Contents
