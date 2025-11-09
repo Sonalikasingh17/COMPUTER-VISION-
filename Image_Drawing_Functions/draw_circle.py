@@ -12,3 +12,4 @@ else:
     cv2.imshow("Drawing Circle", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    cv2.imwrite("circle_image.png", image)
