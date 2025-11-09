@@ -7,14 +7,8 @@ if image is None:
 
 else:
     print("Image loaded successfully!")
+    cv2.circle(image, (210,150), 50, (255,0,0), 5)
 
-    pt1 = (50,100)
-    pt2 = (300,100)
-    color = (255, 0, 0)
-    thickness = 4
-
-    cv2.line(image, pt1, pt2, color, thickness)
-
-    cv2.imshow("Line Drawing" ,image)
+    cv2.imshow("Drawing Circle", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

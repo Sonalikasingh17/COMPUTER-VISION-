@@ -7,14 +7,9 @@ if image is None:
 
 else:
     print("Image loaded successfully!")
+    cv2.putText(image, "Hello Python Programmers", (50,300),
+                cv2.FONT_HERSHEY_SIMPLEX, 1.2, (255,0,0), 2)
 
-    pt1 = (50,100)
-    pt2 = (300,100)
-    color = (255, 0, 0)
-    thickness = 4
-
-    cv2.line(image, pt1, pt2, color, thickness)
-
-    cv2.imshow("Line Drawing" ,image)
+    cv2.imshow("Adding text over image", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
